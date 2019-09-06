@@ -1,26 +1,49 @@
-.App {
-  text-align: center;
+.body {
+  font-family: Arial, serif;
+}
+.header-logo {
+  margin: 0 auto;
+  width: 100%;
+  height: 20px;
+  float: none;
+}
+.row-header {
+  margin: 0px auto;
+  padding: 0px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.footer-jumbotron {
+  background-color:black !important;
+  color: floralwhite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header-jumbotron {
+  padding-top: 70px !important;
+  margin: 0px auto;
+  background: url('https://www.spreadshop.com/content/f_auto,q_70/pages/SellCustomTshirts/teaser_image') no-repeat center center;
+  background-size:100% 100%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.start-shopping-button {
+  position: center;
+  left: 50%;
+
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +53,217 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.content-container p{
+  color: gray;
+  font-size: 13px;
+}
+
+.separator {
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : landscape) {
+  .desktop-image {
+    height:300px;
+    width: 280px
+  }
+  .desktop-image1 {
+    height: 300px;
+    width: 280px
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait) {
+  .desktop-image {
+    height:300px;
+    width: 300px
+  }
+  .desktop-image1 {
+    height: 300px;
+    width: 300px
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+  .desktop-image {
+    height:170px;
+    width: 335px
+  }
+  .desktop-image1 {
+    height: 170px;
+    width: 335px
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px)
+  and (orientation : portrait)
+and (orientation : portrait) {
+  .desktop-image {
+    height:150px;
+    width: 293px
+  }
+  .desktop-image1 {
+    height: 150px;
+    width: 293px
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (max-width : 320px)
+and (orientation : landscape) {
+  .desktop-image {
+    height:150px;
+    width: 350px
+  }
+  .desktop-image1 {
+    height: 150px;
+    width: 350px
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  .desktop-image {
+    width: 350px;
+    height: 200px;
+  }
+  .desktop-image1 {
+    height: 350px;
+    width: 200px
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .desktop-image {
+    height:200px;
+    width: 430px
+  }
+  .desktop-image1 {
+    height: 200px;
+    width: 430px
+  }
+}
+
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 767px)
+and (orientation : landscape) {
+  .desktop-image {
+    height:200px;
+    width: 250px
+  }
+  .desktop-image1 {
+    height: 150px;
+    width: 200px
+  }
+
+}
+
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 767px)
+and (orientation : portrait) {
+  .desktop-image {
+    height:200px;
+    width: 100px
+  }
+  .desktop-image1 {
+    height: 200px;
+    width: 300px
+  }
+
+}
+
+@media only screen
+and (min-device-width : 1800px)
+and (max-device-width : 2048px) {
+  .desktop-image {
+    height:230px;
+    width: 540px
+  }
+  .desktop-image1 {
+    height: 230px;
+    width: 440px
+  }
+}
+
+@media only screen
+and (min-device-width : 1023px)
+and (max-device-width : 1800px) {
+  .desktop-image {
+    height:175px;
+    width: 440px
+  }
+  .desktop-image1 {
+    height: 175px;
+    width: 340px
+  }
+}
+.product-image {
+  height:100px;
+  width: 110px
+}
+.content-container .price {
+  color: red;
+}
+.content-container .name {
+  margin: 0 !important;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait) {
+  .product-image {
+    height:50px;
+    width: 50px
+  }
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
